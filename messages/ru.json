@@ -1,0 +1,45 @@
+{
+	"IndexPage": {
+		"title": "Домашняя страница",
+		"description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
+		"dog": "Собака – четвероногий друг, преданный компаньон и верный пес. Встречая нас своими ласковыми глазами и веселым хвостиком, она способна принести радость и счастье в нашу жизнь. С развитием человеческой цивилизации собака стала неотъемлемой частью нашего бытия. Одомашненная уже тысячи лет назад, эта порода стала не только преданной подругой, но и надежным сторожем наших домов, помощником на охоте, в поиске и спасении, а также верным партнером во многих других сферах жизни."
+	},
+	"AboutPage": {
+		"title": "О нас",
+		"description": "<p>Auch das Routing ist internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/about</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL mit der Locale ergänzt (<code>/de/about</code>).</p>",
+		"about-dog": "Каждое утро, с первыми лучами солнца, я просыпаюсь в своей уютной комнате, одетой в классический стиль. Черная кожаная мебель, деревянные стены и пол, всё это создает атмосферу элегантности и изысканности. Но самым особенным предметом в моей комнате является галстук, светлые полосы которого ярко контрастируют с моим черным мехом. Выполнив утренние гигиенические процедуры, я отправляюсь на улицу, чтобы насладиться свежим воздухом и окунуться в ритм городской суеты. Мои собратья мимодходяще оборачиваются, восхищенно уставившись на мой галстук, и я с гордостью осознаю, что привлекаю внимание не только своим выдающимся внешним видом, но и своим чувством стиля. Время от времени я захожу в изысканные модные бутики и, без сомнения, становлюсь центром внимания. Мои полоски в сочетании с изящными движениями привлекают не только восхищенные взгляды, но и заслуженные комплименты. Люди с тонким вкусом никогда не проходят мимо меня, и я стараюсь не разочаровывать их своим присутствием."
+	},
+	"Error": {
+		"title": "Etwas ist schief gelaufen!",
+		"description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
+	},
+	"NotFoundPage": {
+		"title": "Seite nicht gefunden",
+		"description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+	},
+	"LocaleLayout": {
+		"title": "next-intl Beispiel"
+	},
+	"LocaleSwitcher": {
+		"label": "Sprache ändern",
+		"locale": "{locale, select, ru {Русский} en {Англицкий} ar {Арабский} other {Unbekannt}}"
+	},
+	"Navigation": {
+		"home": "Домашняя",
+		"about": "О компании"
+	},
+	"PageLayout": {
+		"links": {
+			"docs": {
+				"title": "Dokumentation",
+				"description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
+				"href": "https://next-intl-docs.vercel.app/"
+			},
+			"source": {
+				"title": "Quellcode",
+				"description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
+				"href": "https://github.com/amannn/next-intl/tree/main/examples/example-next-13"
+			}
+		}
+	}
+}

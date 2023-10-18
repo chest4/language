@@ -1,0 +1,45 @@
+{
+	"IndexPage": {
+		"title": "home page",
+		"description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
+		"dog": "A dog is a four–legged friend, a devoted companion and a faithful dog. Meeting us with her affectionate eyes and cheerful tail, she is able to bring joy and happiness into our lives. With the development of human civilization, the dog has become an integral part of our existence. Domesticated thousands of years ago, this breed has become not only a devoted friend, but also a reliable watchman of our homes, an assistant in hunting, in search and rescue, as well as a faithful partner in many other spheres of life."
+	},
+	"AboutPage": {
+		"title": "About page",
+		"description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>",
+		"about-dog": "Every morning, with the first rays of the sun, I wake up in my cozy room, dressed in a classic style. Black leather furniture, wooden walls and floor, all this creates an atmosphere of elegance and sophistication. But the most special item in my room is a tie, the light stripes of which contrast vividly with my black fur. After completing the morning hygiene procedures, I go outside to enjoy the fresh air and plunge into the rhythm of the city bustle. My brothers turn around in passing, admiring my tie, and I am proud to realize that I attract attention not only with my outstanding appearance, but also with my sense of style. From time to time I go into fine fashion boutiques and, without a doubt, become the center of attention. My stripes combined with graceful movements attract not only admiring glances, but also well-deserved compliments. People with fine taste never pass me by, and I try not to disappoint them with my presence."
+	},
+	"Error": {
+		"title": "Something went wrong!",
+		"description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+	},
+	"NotFoundPage": {
+		"title": "Page not found",
+		"description": "Please double-check the browser address bar or use the navigation to go to a known page."
+	},
+	"LocaleLayout": {
+		"title": "next-intl example"
+	},
+	"LocaleSwitcher": {
+		"label": "Change language",
+		"locale": "{locale, select, ru {Русский} en {Англицкий} ar {Арабский} other {Unbekannt}}"
+	},
+	"Navigation": {
+		"home": "Home",
+		"about": "About"
+	},
+	"PageLayout": {
+		"links": {
+			"docs": {
+				"title": "Docs",
+				"description": "Learn more about next-intl in the official docs.",
+				"href": "https://next-intl-docs.vercel.app/"
+			},
+			"source": {
+				"title": "Source code",
+				"description": "Browse the source code of this example on GitHub.",
+				"href": "https://github.com/amannn/next-intl/tree/main/examples/example-next-13"
+			}
+		}
+	}
+}

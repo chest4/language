@@ -1,0 +1,45 @@
+{
+	"IndexPage": {
+		"title": "العنوان باللغة العربية",
+		"description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
+		"dog": "الكلب هو صديق ذو أربعة أرجل ، رفيق مخلص وكلب مخلص. لقاء لنا مع عينيها حنون وذيل البهجة ، وقالت انها قادرة على جلب الفرح والسعادة في حياتنا. مع تطور الحضارة الإنسانية ، أصبح الكلب جزءا لا يتجزأ من وجودنا. منذ آلاف السنين ، أصبح هذا الصنف ليس فقط صديقا مخلصا ، ولكن أيضا حارسا موثوقا لمنازلنا ، ومساعد في الصيد والبحث والإنقاذ ، فضلا عن شريك مخلص في العديد من مجالات الحياة الأخرى."
+	},
+	"AboutPage": {
+		"title": "العنوان باللغة العربية عن الشركة",
+		"description": "<p>Auch das Routing ist internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/about</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL mit der Locale ergänzt (<code>/de/about</code>).</p>",
+		"about-dog": "كل صباح ، مع أشعة الشمس الأولى ، أستيقظ في غرفتي المريحة ، مرتديا الطراز الكلاسيكي. أثاث من الجلد الأسود وجدران وأرضية خشبية-كل هذا يخلق جوا من الأناقة والرقي. لكن الشيء الأكثر خصوصية في غرفتي هو ربطة عنق ، تتناقض خطوطها الخفيفة بشكل واضح مع الفراء الأسود. بعد الانتهاء من إجراءات النظافة الصباحية ، أخرج للخارج للحصول على بعض الهواء النقي والانغماس في إيقاع صخب المدينة. إخوتي ، المارة ، يستديرون ، معجبين بربطتي ، وأنا فخور بأن أدرك أنني أجذب الانتباه ليس فقط بمظهري المتميز ، ولكن أيضا بشعور من الأناقة. من وقت لآخر أذهب إلى محلات الأزياء الراقية ، وبدون شك ، أصبح مركز الاهتمام. لا تجذب خطوطي جنبا إلى جنب مع الحركات الرشيقة نظرات الإعجاب فحسب ، بل تجذب أيضا الإطراءات التي تستحقها. الأشخاص ذوو الذوق الرفيع لا يمرون بي أبدا ، وأحاول ألا أخيب ظنهم بحضوري."
+	},
+	"Error": {
+		"title": "Etwas ist schief gelaufen!",
+		"description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
+	},
+	"NotFoundPage": {
+		"title": "Seite nicht gefunden",
+		"description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+	},
+	"LocaleLayout": {
+		"title": "next-intl Beispiel"
+	},
+	"LocaleSwitcher": {
+		"label": "Sprache ändern",
+		"locale": "{locale, select, ru {Русский} en {Англицкий} ar {Арабский} other {Unbekannt}}"
+	},
+	"Navigation": {
+		"home": "الصفحة الرئيسية",
+		"about": "نبذة عن الشركة"
+	},
+	"PageLayout": {
+		"links": {
+			"docs": {
+				"title": "Dokumentation",
+				"description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
+				"href": "https://next-intl-docs.vercel.app/"
+			},
+			"source": {
+				"title": "Quellcode",
+				"description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
+				"href": "https://github.com/amannn/next-intl/tree/main/examples/example-next-13"
+			}
+		}
+	}
+}
